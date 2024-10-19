@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Пілоти</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Світло-сірий фон */
+            margin: 0;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid white;
+            margin-top: 20px;
+            background-color: #fff; /* Білий фон для таблиці */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь для таблиці */
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center; /* Центрування тексту */
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            height: 50px; /* Збільшено висоту заголовків */
+        }
+
+        .class4 {
+            height: 224px;
+            width: 224px;
+        }
+
+        .img1 {
+            height: 80px; /* Збільшено до 80px для кращого вигляду */
+            width: auto; /* Автоматична ширина */
+        }
+
+        .center-img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .country-flag {
+            margin-top: 10px; /* Відступ між номером та прапором */
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <h2>Red Bull Racing Pilots</h2>
+  </header>
+  <main>
+    <table>
+      <tr>
+        <th>Фото пілота</th>
+        <th>Пілот</th>
+        <th>Номер авто</th>
+        <th>Країна</th>
+      </tr>
+      <tr>
+        <td class="center-img">
+            <img class="class4" src="завантаження.jpg" alt="">
+        </td>
+        <td>Макс Ферстаппен</td>
+        <td>33</td>
+        <td class="country-flag">
+            <img class="img1" src="Flag_of_the_Netherlands.svg.webp" alt="">
+        </td>
+      </tr>
+      <tr>
+        <td class="center-img">
+            <img class="class4" src="perez.avif" alt="">
+        </td>
+        <td>Серхіо Перес</td>
+        <td>11</td>
+        <td class="country-flag">
+            <img class="img1" src="Flag_of_Mexico.svg.png" alt="">
+        </td>
+      </tr>
+      <tr>
+        <td class="center-img">
+            <img class="class4" src="ricciardo.avif" alt="">
+        </td>
+        <td>Даніель Рікьярдо</td>
+        <td>18</td>
+        <td class="country-flag">
+            <img class="img1" src="Flag_of_Australia_(converted).svg.png" alt="">
+        </td>
+      </tr>
+      <tr>
+        <td class="center-img">
+            <img class="class4" src="f1_2022_sv_ast_lg.png" alt="">
+        </td>
+        <td>Себастьян Феттель</td>
+        <td>30</td>
+        <td class="country-flag">
+            <img class="img1" src="Flag_of_Germany.svg.png" alt="">
+        </td>
+      </tr>
+    </table>
+  </main>
+</body>
+</html>
